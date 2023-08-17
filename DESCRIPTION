@@ -2,25 +2,22 @@ Package: hdbinseg
 Type: Package
 Title: Change-Point Analysis of High-Dimensional Time Series via Binary
         Segmentation
-Version: 1.0.1
-Date: 2018-05-18
+Version: 1.0.2
+Date: 2023-07-27
 Authors@R: c(
-	person('Haeran', 'Cho', email='haeran.cho@bristol.ac.uk', role=c('aut', 'cre')),
-	person('Piotr', 'Fryzlewicz', email='p.fryzlewicz@lse.ac.uk', role='aut'))
-Description: Binary segmentation methods for detecting and estimating 
-	multiple change-points in the mean or second-order structure 
-	of high-dimensional time series as described in Cho and Fryzlewicz (2014) <doi:10.1111/rssb.12079> and Cho (2016) <doi:10.1214/16-EJS1155>.
-Depends: R (>= 3.4.0)
+	person('Haeran', 'Cho', email = 'haeran.cho@bristol.ac.uk', role = c('aut', 'cre')),
+	person('Piotr', 'Fryzlewicz', email = 'p.fryzlewicz@lse.ac.uk', role = 'aut'))
+Description: Binary segmentation methods for detecting and estimating multiple change-points in the mean or second-order structure of high-dimensional time series as described in Cho and Fryzlewicz (2014) <doi:10.1111/rssb.12079> and Cho (2016) <doi:10.1214/16-EJS1155>.
+Depends: R (>= 4.2.0)
 License: GPL (>= 3)
-LazyData: TRUE
 Suggests: RcppArmadillo
 Imports: Rcpp (>= 0.12.10), foreach, iterators, doParallel
 LinkingTo: Rcpp, RcppArmadillo
-RoxygenNote: 6.0.1
+RoxygenNote: 7.2.3
 NeedsCompilation: yes
-Packaged: 2018-05-28 12:02:41 UTC; mahrc
+Packaged: 2023-07-27 12:49:53 UTC; mahrc
 Author: Haeran Cho [aut, cre],
   Piotr Fryzlewicz [aut]
 Maintainer: Haeran Cho <haeran.cho@bristol.ac.uk>
 Repository: CRAN
-Date/Publication: 2018-05-29 08:59:41 UTC
+Date/Publication: 2023-08-17 13:02:33 UTC

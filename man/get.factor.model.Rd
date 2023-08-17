@@ -4,8 +4,13 @@
 \alias{get.factor.model}
 \title{Factor model estimation via Principal Component Analysis}
 \usage{
-get.factor.model(z, r.max = NULL, ic = c("ah", "bn")[1], ic.op = 2,
-  normalisation = TRUE)
+get.factor.model(
+  z,
+  r.max = NULL,
+  ic = c("ah", "bn")[1],
+  ic.op = 2,
+  normalisation = TRUE
+)
 }
 \arguments{
 \item{z}{input data matrix, with each row representing the component time series}

@@ -4,9 +4,20 @@
 \alias{dcbs.thr}
 \title{Bootstrapping for threshold selection in DCBS algorithm}
 \usage{
-dcbs.thr(z, interval = c(1, dim(z)[2]), phi = 0.5, cp.type = 1,
-  do.clean.cp = FALSE, temporal = TRUE, scales = NULL, diag = FALSE,
-  sgn = NULL, B = 1000, q = 0.01, do.parallel = 4)
+dcbs.thr(
+  z,
+  interval = c(1, dim(z)[2]),
+  phi = 0.5,
+  cp.type = 1,
+  do.clean.cp = FALSE,
+  temporal = TRUE,
+  scales = NULL,
+  diag = FALSE,
+  sgn = NULL,
+  B = 1000,
+  q = 0.01,
+  do.parallel = 4
+)
 }
 \arguments{
 \item{z}{input data matrix, with each row representing the component time series}
@@ -15,7 +26,7 @@ dcbs.thr(z, interval = c(1, dim(z)[2]), phi = 0.5, cp.type = 1,
 
 \item{phi, cp.type, temporal, scales, diag, B, q, do.parallel}{see \code{\link{dcbs.alg}}}
 
-\item{do.clean.cp}{if \code{do.clean.cp = TRUE} pre-change-point cleaning is performed}
+\item{do.clean.cp}{if \code{do.clean.cp = TRUE} pre-change point cleaning is performed}
 
 \item{sgn}{if \code{diag = FALSE}, wavelet transformations of the cross-covariances are computed with the matching signs}
 }

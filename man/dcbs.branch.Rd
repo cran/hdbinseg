@@ -14,7 +14,7 @@ dcbs.branch(input, phi, s, e, trim)
 \item{s, e}{start and end of the interval of consideration at a given iteration}
 }
 \value{
-a vector containing the information about the branch, including the location of the estimated change-point and the corresponding test statistic
+a vector containing the information about the branch, including the location of the estimated change point and the corresponding test statistic
 }
 \description{
 Grow a branch of the binary tree for the Double CUSUM Binary Segmentation without thresholding

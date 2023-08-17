@@ -4,9 +4,18 @@
 \alias{sbs.thr}
 \title{Bootstrapping for threshold selection in SBS algorithm}
 \usage{
-sbs.thr(z, interval = c(1, dim(z)[2]), cp.type = 1, do.clean.cp = TRUE,
-  scales = NULL, diag = FALSE, sgn = NULL, B = 1000, q = 0.01,
-  do.parallel = 4)
+sbs.thr(
+  z,
+  interval = c(1, dim(z)[2]),
+  cp.type = 1,
+  do.clean.cp = TRUE,
+  scales = NULL,
+  diag = FALSE,
+  sgn = NULL,
+  B = 1000,
+  q = 0.01,
+  do.parallel = 4
+)
 }
 \arguments{
 \item{z}{input data matrix, with each row representing the component time series}

@@ -4,8 +4,7 @@
 \alias{clean.cp}
 \title{Removing change-points in the mean}
 \usage{
-clean.cp(z, type = c("dcbs", "sbs"), phi = 0.5, trim = NULL,
-  height = NULL)
+clean.cp(z, type = c("dcbs", "sbs"), phi = 0.5, trim = NULL, height = NULL)
 }
 \arguments{
 \item{z}{input data matrix, with each row representing the component time series}

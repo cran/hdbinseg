@@ -13,9 +13,9 @@ dcbs.make.tree(input, phi = 0.5, trim = NULL, height = NULL)
 }
 \value{
 S3 \code{bin.tree} object, which contains the following fields:
-   \item{tree}{a \link{list} object containing information about the nodes at which change-points are detected}
+   \item{tree}{a \link{list} object containing information about the nodes at which change points are detected}
    \item{mat}{matrix concatenation of the nodes of \code{tree}}
-   \item{ecp}{estimated change-points}
+   \item{ecp}{estimated change points}
    \item{thr}{threshold used to construct the tree}
 }
 \description{
